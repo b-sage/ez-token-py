@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project]
+name = "ez-token-py"
+version = "1.0"
+description = "Python client for interacting with EzToken contracts"
+authors = [{name = "Ben Sage"}]
+maintainers = [{name = "Ben Sage"}]
+readme = "README.md"
+keywords = ["crypto", "web3", "ethereum", "blockchain", "evm_client", "erc20", "token", "data", "NFT", "fundgible", "coin", "polygon", "avalanche"]
+dynamic = ["dependencies"]
