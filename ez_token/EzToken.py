@@ -3,7 +3,6 @@ from evm_client.sync_client import SyncEthClient
 from evm_client.contract import Contract
 from constants import ADDRESS_MAP, EZTOKEN_ABI
 
-#NOTE: need to find token with emoji name/symbol to test
 def sanitize(string):
     return re.sub('[,\r\n\r\x00-\x1f]','', string).lstrip(' ')
 
