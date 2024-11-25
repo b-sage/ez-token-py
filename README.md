@@ -1,6 +1,13 @@
 # ez-token-py
 Python client for interacting with the [EzToken contract](https://github.com/b-sage/ez-token)
 
+## Installation
+
+Clone the repo, then:
+```bash
+pip install -e .
+```
+
 ## Usage
 ```python3
 from ez_token import EzToken
