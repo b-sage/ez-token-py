@@ -1,5 +1,5 @@
 # ez-token-py
-Python client for interacting with the (EzToken contract)[https://github.com/b-sage/ez-token]
+Python client for interacting with the [EzToken contract](https://github.com/b-sage/ez-token)
 
 ## Usage
 ```python3
