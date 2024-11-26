@@ -1,5 +1,5 @@
 # ez-token-py
-Python client for interacting with the [EzToken contract](https://github.com/b-sage/ez-token)
+Python client for interacting with the [ez-token contract](https://github.com/b-sage/ez-token)
 
 ## Purpose
 When extracting ERC20 data offchain, there are a few issues you are likely to encounter:
