@@ -1,7 +1,7 @@
 import re
 from evm_client.sync_client import SyncEthClient
 from evm_client.contract import Contract
-from constants import ADDRESS_MAP, EZTOKEN_ABI
+from .constants import ADDRESS_MAP, EZTOKEN_ABI
 
 def sanitize(string):
     return re.sub('[,\r\n\r\x00-\x1f]','', string).lstrip(' ')
